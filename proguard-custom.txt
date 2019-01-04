@@ -98,6 +98,10 @@
 # Remove debug logs in release build
 -assumenosideeffects class android.util.Log {
     public static *** d(...);
+    public static *** v(...);
+    public static *** i(...);
+    public static *** w(...);
+    public static *** e(...);
 }
 
 # These classes contain references to external jars which are not included in the default MobileFirst project.
